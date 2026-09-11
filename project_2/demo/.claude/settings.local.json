@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//d/helix-25.07.1-x86_64-windows/helix-25.07.1-x86_64-windows/contrib/**)",
+      "Read(//d/helix-25.07.1-x86_64-windows/**)",
+      "Bash(powershell *)"
+    ]
+  }
+}
