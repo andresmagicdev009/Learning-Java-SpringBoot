@@ -17,6 +17,8 @@ public class InMemoryUserRepository implements UserRepository {
     private final Map<Long, User> users = new ConcurrentHashMap<>();
     private final AtomicLong sequence = new AtomicLong();
 
+    
+
     @Override
     public List<User> findAll() {
         return new ArrayList<>(users.values());

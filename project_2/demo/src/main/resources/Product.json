@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Nintendo Switch 2",
+        "price": 450,
+        "description": "Description of Product 1"
+    },
+    {
+        "id": 2,
+        "name": "RTX 5070",
+        "price": 1980,
+        "description": "Description of Product 2"
+    },
+    {
+        "id": 3,
+        "name": "Apple SmartWatch",
+        "price": 150,
+        "description": "Description of Product 3"
+    }
+]
