@@ -17,7 +17,7 @@ public class AppConfig {
     @Bean
     List<Item> itemInvoice(){
         Product product1 = new Product("HeadhPhone JBL", 100);
-        Product product2 = new Product("Bicycle", 200);
+        Product product2 = new Product("Casio G shock", 200);
         return Arrays.asList(new Item(product1, 5), new Item(product2, 10));
     }
     

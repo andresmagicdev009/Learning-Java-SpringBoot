@@ -37,6 +37,20 @@ public class Invoice {
     public void setItems(List<Item> items) {
         this.items = items;
     }
+
+    public int getTotalWithForEach(){
+        int total = 0;
+
+        for (Item item: items) {
+            total += item.getImporte();
+        }
+
+        return total;
+    }
+
+    public int getTotalWithStream(){
+        return items.stream().map(item -> item.getImporte()).reduce(0, (sum, item) -> sum + item);
+    }
     
 
 
